@@ -1,0 +1,68 @@
+.logo{
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-bottom: 1px;
+}
+
+.logo img {
+  width: 150px;
+}
+
+.main-container {
+  background-color: #fff;
+  width: 1020px;
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.4);
+  margin: 0 auto;
+}
+
+.main-content {
+  width: 1020px;
+  height: 815px;
+}
+
+#header {
+  min-height: 130px;
+}
+
+#tagline {
+  padding-left: 67px;
+  padding-top: 20px;
+}
+
+#tagline h1 {
+  color: #2e5FA8;
+}
+
+#wwc-pic {
+  border-right: 1px solid #e8e8e8;
+}
+
+#navigation {
+  height: 49px;
+  background-color: #4c4c4c;
+}
+
+.nav-item {
+  color: #fff;
+  padding-top: 15px;
+  padding-left: 20px;
+}
+
+.indi-box {
+  margin: 20px;
+}
+
+.team img {
+  width: 130px;
+  -webkit-border-radius: 90px;
+  -moz-border-radius: 90px;
+  border-radius: 90px;
+  -webkit-box-shadow: 3px 3px 3px #777;
+  -moz-box-shadow: 3px 3px 3px #777;
+  box-shadow: 3px 3px 3px #777;
+}
+
+.team {
+  margin-top: 20px;
+}
+
