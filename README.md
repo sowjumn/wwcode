@@ -17,4 +17,7 @@ SECRET_KEY_BASE="mysecret"
 
 All the above steps should run fine if you have installed ruby using rvm. for more info on RVM and gemsets watch my presentation of rvm at http://www.slideshare.net/NagaSowjanyaMudunuri/rvmnotes
 
+Features implemented:
+A location has many admins 
+
 
