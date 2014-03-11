@@ -29,7 +29,11 @@
 </div>
 
 <div class="row">
-<%= f.submit %>
-</div>
+  <%= f.label :author %>
+  <%= f.text_field :author %>
 
-<% end %>
+  <div class="row">
+    <%= f.submit %>
+  </div>
+
+  <% end %>
