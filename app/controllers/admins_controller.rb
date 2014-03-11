@@ -5,17 +5,12 @@ class AdminsController < ApplicationController
 
   def create
     @admin = Admin.new(admin_params)
-
     if @admin.save
       render 'review'
     else
       render 'new'
     end
   end
-
-
-
-
 
   private
     def admin_params

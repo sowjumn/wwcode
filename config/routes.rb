@@ -6,6 +6,10 @@ Wwcode::Application.routes.draw do
   root 'welcome#index'
 
   resources :admins
+  resources :sessions, only: [:new,:create,:destroy]
+
+
+
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

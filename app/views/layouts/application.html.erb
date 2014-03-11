@@ -1,16 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>RubyWwc</title>
+  <title>wwc</title>
   <%= stylesheet_link_tag    "application", media: "all"%>
   <%= javascript_include_tag "application"%>
   <%= csrf_meta_tags %>
 </head>
 <body>
-  <div class="main-container">
-    <%= render 'layouts/header' %>
-    <%= render 'layouts/navigation' %>
-    <%= yield %>
-  </div>
+  <%= yield %>
 </body>
 </html>
