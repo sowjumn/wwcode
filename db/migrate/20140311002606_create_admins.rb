@@ -1,13 +1,10 @@
 class CreateAdmins < ActiveRecord::Migration
   def change
     create_table :admins do |t|
-      t.string :fname
-      t.string :lname
-      t.string :title
+      t.string :name
       t.string :email
-      t.integer :location_id
-
-      t.timestamps
+      t.string :password_digest
+      t.boolean :trust, default: false
     end
   end
 end

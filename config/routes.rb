@@ -5,7 +5,7 @@ Wwcode::Application.routes.draw do
   # You can have the root of your site routed with "root"
   root 'welcome#index'
 
-  resources :locations
+  resources :admins
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

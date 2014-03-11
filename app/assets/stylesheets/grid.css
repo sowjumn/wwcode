@@ -1,9 +1,48 @@
 .row {
-  display: block;
+  width: 100%;
+  overflow: hidden;
 }
 
 .unit {
   float: left;
+}
+
+.unit-right {
+  float: right;
+}
+
+.inner {
+  padding: 10px;
+  overflow: hidden;
+}
+
+.double-inner {
+  padding: 10px;
+  overflow: hidden;
+}
+
+.vertical-inner {
+  padding: 10px 0;
+}
+
+.vertical-double-inner {
+  padding: 20px 0;
+}
+
+.vertical-half-inner {
+  padding: 5px 0;
+}
+
+.horizontal-inner {
+  padding: 0 10px;
+}
+
+.horizontal-double-inner {
+  padding: 0 20px;
+}
+
+.top-inner {
+  padding-top: 10px;
 }
 
 .col1of1 {
@@ -51,7 +90,11 @@
 }
 
 .lastUnit {
-  width: auto;
   display: table-cell;
   float: none;
+  width: auto;
+}
+
+.some-height {
+  height: 200px;
 }
