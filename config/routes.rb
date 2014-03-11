@@ -8,6 +8,10 @@ Wwcode::Application.routes.draw do
   resources :admins
   resources :sessions, only: [:new,:create,:destroy]
 
+  match '/admin_signup', to: 'admins#new', via: :get
+  match '/admin_signin', to: 'sessions#new', via: :get
+  match '/admin_signout', to: 'sessions#destroy', via: :delete
+
 
 
 
