@@ -6,6 +6,7 @@ Wwcode::Application.routes.draw do
   root 'welcome#index'
 
   resources :admins
+  resources :blogs
   resources :sessions, only: [:new,:create,:destroy]
 
   match '/admin_signup', to: 'admins#new', via: :get

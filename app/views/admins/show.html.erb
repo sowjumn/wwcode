@@ -1,3 +1,9 @@
 <div class="row"> 
   <%= link_to 'Sign_Out', {controller: 'sessions', id: current_admin.id, action: 'destroy'}, method: :delete %>
 </div>
+
+<div class="admin-wrapper">
+  <div class="row">
+    <h1> Create Blog </h1>
+    <%= link_to 'Create Blog', new_blog_path %>
+</div>
