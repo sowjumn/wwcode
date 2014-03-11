@@ -1,0 +1,18 @@
+<div class="row">Community Blog</div>
+<% @blogs_all.each do |blog| %>
+    <div class="row">
+      <div class="blog-title"><%=blog.title%></div>
+    </div>
+    <div class="row">
+      <div class="para1"><%=blog.para1%></div>
+    </div>
+    <div class="row">
+      <div class="para2"><%=blog.para2%></div>
+    </div>
+    <div class="row">
+      <div class="para3"><%=blog.para3%></div>
+    </div>
+    <div class="row">
+      <div class="blog-author"><%=blog.author%></div>
+    </div>
+  <% end %>

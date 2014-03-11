@@ -14,6 +14,10 @@ class BlogsController < ApplicationController
     end
   end
 
+  def index
+    @blogs_all = Blog.all
+  end
+
 
   private
     def blog_params
