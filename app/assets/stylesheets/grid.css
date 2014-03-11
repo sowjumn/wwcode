@@ -17,7 +17,7 @@
 }
 
 .double-inner {
-  padding: 10px;
+  padding: 20px;
   overflow: hidden;
 }
 
@@ -27,6 +27,10 @@
 
 .vertical-double-inner {
   padding: 20px 0;
+}
+
+.vertical-big-inner {
+  padding: 50px 0;
 }
 
 .vertical-half-inner {
@@ -96,5 +100,5 @@
 }
 
 .some-height {
-  height: 200px;
+  height: 10px;
 }
