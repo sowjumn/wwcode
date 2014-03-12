@@ -25,6 +25,10 @@
   padding: 10px 0;
 }
 
+.bottom-inner {
+  padding: 0 0 20px 0;
+}
+
 .vertical-double-inner {
   padding: 20px 0;
 }

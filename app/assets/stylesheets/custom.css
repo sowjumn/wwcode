@@ -26,3 +26,18 @@
   margin: 40px;
 }
 
+.blog-title {
+  font-size: 28px;
+  font-family: 'sans-serif';
+  line-height: 1.5;
+}
+
+.blog-heading {
+  font-size: 32px;
+  border-bottom: 1px solid gray;
+}
+
+.each-blog {
+  border-bottom: 1px solid gray;
+  padding: 20px;
+}
