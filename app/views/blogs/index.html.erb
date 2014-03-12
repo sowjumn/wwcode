@@ -2,11 +2,11 @@
 <div class="row double-inner blog-heading"><h1>Community Blog</h1></div>
 <div class="unit col1of3">
   <% @blogs_all.each do |blog| %>
-  <h2><%= blog.title %></h2>
+  <div class="row nav-blog"><%= blog.title %></div>
   <% end %>
 </div>
 
-<div class="unit col1of2">
+<div class="lastUnit">
   <% @blogs_all.each do |blog| %>
   <div class="each-blog">
     <div class="row">
