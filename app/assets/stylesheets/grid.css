@@ -97,6 +97,10 @@
   width: 10%;
 }
 
+.col1of6 {
+  width: 15%;
+}
+
 .lastUnit {
   display: table-cell;
   float: none;
