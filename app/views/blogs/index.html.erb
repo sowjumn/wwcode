@@ -1,12 +1,13 @@
 
-<div class="row double-inner blog-heading"><h1>Community Blog</h1></div>
-<div class="unit col1of3">
+
+<div class="unit col1of4">
+  <div class="row recent-posts inner">Recent Posts</div>
   <% @blogs_all.each do |blog| %>
-  <div class="row nav-blog"><%= blog.title %></div>
+  <div class="row nav-blog horizontal-double-inner"><%= blog.title %></div>
   <% end %>
 </div>
 
-<div class="lastUnit">
+<div class="unit col2of3">
   <% @blogs_all.each do |blog| %>
   <div class="each-blog">
     <div class="row">
@@ -16,7 +17,7 @@
       <div class="para1"><%=blog.para1%>...</div>
     </div>
     <div class="row">
-      <div class="blog-author"><%=blog.author%></div>
+      <div class="blog-author">---<%=blog.author%></div>
     </div>
   </div>
 <% end %>
