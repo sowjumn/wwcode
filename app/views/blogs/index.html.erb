@@ -17,6 +17,10 @@
       <div class="para1"><%=blog.para1%>...</div>
     </div>
     <div class="row">
+      <% if signed_in? %>
+        <%= link_to 'edit', edit_blog_path(blog)%>
+        <%= link_to 'Delete Blog', {controller: 'blogs', action: 'destroy', id: blog.id}%>
+      <% end %>
       <div class="blog-author">---<%=blog.author%></div>
     </div>
   </div>
