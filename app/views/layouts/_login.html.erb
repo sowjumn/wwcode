@@ -1,0 +1,8 @@
+<div class="row admin-background">
+  <div class="unit col1of2">
+    <%= link_to "Current Admin", {controller: 'admins', action: 'show', id: current_admin.id} %>
+  </div>
+  <div class="row col1of2">
+    <%= link_to "Logout", {controller: 'sessions', action: 'destroy', id: current_admin.id}, method: :delete %>
+  </div>
+</div>

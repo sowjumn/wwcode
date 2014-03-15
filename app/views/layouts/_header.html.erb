@@ -9,4 +9,7 @@
     <div class="unit col1of10 vertical-big-inner"><a href="/involvement">Involvement</a></div>
     <div class="unit col1of10 vertical-big-inner"><a href="/success">Success Stories</a></div>
   </div>
+  <% if signed_in? %>
+    <%= render 'layouts/login' %>
+  <% end %>
 

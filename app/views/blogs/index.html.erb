@@ -19,7 +19,7 @@
     <div class="row">
       <% if signed_in? %>
         <%= link_to 'edit', edit_blog_path(blog)%>
-        <%= link_to 'Delete Blog', {controller: 'blogs', action: 'destroy', id: blog.id}%>
+        <%= link_to 'Delete Blog', {controller: 'blogs', action: 'destroy', id: blog.id}, method: :delete %>
       <% end %>
       <div class="blog-author">---<%=blog.author%></div>
     </div>
