@@ -1,0 +1,40 @@
+<h2 class="double-inner"> Be Careful in editing the content here it is going to change the Landing PAGE </h2>
+
+<div class="inner">
+<%= form_for(@about) do |f| %>
+<div class="row">
+  <%= f.label :mission %>
+</div>
+
+<div class="row bottom-inner">
+  <%= f.text_area :mission, size: "100x5" %>
+</div>
+
+<div class="row">
+  <%= f.label :study %>
+</div>
+
+<div class="row bottom-inner">
+  <%= f.text_area :studynights, size: "100x5" %>
+</div>
+
+<div class="row">
+<%= f.label :hack %>
+</div>
+
+<div class="row bottom-inner">
+<%= f.text_area :hackevents, size: "100x5" %>
+</div>
+
+<div class="row">
+<%= f.label :tech %>
+</div>
+
+<div class="row bottom-inner">
+<%= f.text_area :techtalks, size: "100x5" %>
+</div>
+
+<%= f.submit %>
+
+<% end %>
+</div>

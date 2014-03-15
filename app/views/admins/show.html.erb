@@ -1,9 +1,14 @@
-<div class="row"> 
+
+
+<div class="row double-inner f-right"> 
   <%= link_to 'Sign_Out', {controller: 'sessions', id: current_admin.id, action: 'destroy'}, method: :delete %>
 </div>
 
 <div class="admin-wrapper">
-  <div class="row">
-    <h1> Create Blog </h1>
+  <div class="row double-inner">
     <%= link_to 'Create Blog', new_blog_path %>
+  </div>
+  <div class="row double-inner">
+    <%= link_to 'Edit About', {controller: 'about', action: 'edit'} %>
+  </div>
 </div>

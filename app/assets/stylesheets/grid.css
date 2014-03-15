@@ -110,3 +110,7 @@
 .some-height {
   height: 10px;
 }
+
+.f-right {
+  text-align: right;
+}

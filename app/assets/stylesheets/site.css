@@ -1,10 +1,15 @@
 h1 { 
   font-size: 32px;
+  font-family: 'Helvetica Nueue';
 }
 
 h2 {
   font-size: 28px;
   color: #2E5FA8;
+}
+
+h4 {
+  font-size: 18px;
 }
 
 body {
@@ -15,9 +20,6 @@ p {
   padding: 5px;
 }
 
-.main {
- margin: 40px;
-}
 
 input {
   width: 300px;
