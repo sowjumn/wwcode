@@ -2,10 +2,26 @@
   <div class="row inner">
     <%= image_tag("main-image.jpg") %>
   </div>
-  <div class="row inner">
-    <div class="unit col1of2">
+  <div class="row inner vertical-double-inner">
+    <div class="unit col1of2 borderright">
       <h1>Who We are?</h1>
       <p class="inner"><%= @about.mission %></p>
+    </div>
+  </div>
+  <div class="row inner vertical-double-inner">
+    <h2>How we do?</h2>
+
+    <div class="unit col1of3 borderright inner">
+      <h4>Study Nights</h4>
+      <p class="inner"><%= @about.studynights %></p>
+    </div>
+    <div class="unit col1of3 borderright inner">
+      <h4>Hack Events</h4>
+      <p class="inner"><%= @about.hackevents %></p>
+    </div>
+    <div class="unit lastUnit inner">
+      <h4>Tech Talks</h4>
+      <p class="inner"><%= @about.techtalks %></p>
     </div>
   </div>
 </div>

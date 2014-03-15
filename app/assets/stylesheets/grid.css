@@ -114,3 +114,7 @@
 .f-right {
   text-align: right;
 }
+
+.borderright {
+  border-right: 1px solid gray;
+}

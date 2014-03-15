@@ -1,11 +1,13 @@
 h1 { 
   font-size: 32px;
   font-family: 'Helvetica Nueue';
+  color: #2E5FA8;
 }
 
 h2 {
   font-size: 28px;
   color: #2E5FA8;
+  font-family: 'Helvetica Nueue';
 }
 
 h4 {
@@ -18,6 +20,7 @@ body {
 
 p {
   padding: 5px;
+  line-height: 1.3;
 }
 
 
