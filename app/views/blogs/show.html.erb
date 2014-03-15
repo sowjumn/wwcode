@@ -1,0 +1,17 @@
+  <div class="double-inner">
+    <div class="blog-title"><%=@blog.title%></div>
+
+    <p><%= @blog.para1 %></p>
+
+    <p><%= @blog.para2 %></p>
+
+    <p><%= @blog.para3 %></p>
+
+    <div class="row">
+      <% if signed_in? %>
+      <%= link_to 'edit', edit_blog_path(@blog)%>
+      <%= link_to 'Delete Blog', {controller: 'blogs', action: 'destroy', id: @blog.id}, method: :delete %>
+      <% end %>
+      <div class="blog-author">---<%= @blog.author%></div>
+    </div>
+  </div>
