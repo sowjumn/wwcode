@@ -1,25 +1,33 @@
-.logo img {
-  width: 150px;
-}
+
 
 .main-container {
   background-color: #fff;
   width: 1090px;
   box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.4);
   margin: 0 auto;
+  padding-top: 40px;
+
 }
 
 .header-container {
   background-color: #00B6AA;
+  position: fixed;
+  a {
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+  }
+
+  a:hover {
+    background-color: gray;
+  }
 }
 
 .main-content {
-  width: 1020px;
+  width: 1060px;
   height: 815px;
-}
-
-#header {
-  min-height: 130px;
 }
 
 .blog-wrapper {

@@ -1,15 +1,17 @@
   <div class="row header-container">
-    <div class="unit col1of5 logo double-inner" id="wwc-pic">
-      <%= image_tag("logo.png") %>
+    <div class="unit col1of3 horizontal-double-inner vertical-inner">
+      <h1>WOMEN WHO CODE</h1>
     </div>
 
-    <div class="unit col1of5 some-height"></div>
-    <div class="unit col1of10 vertical-big-inner"><a href="/">About</a></div>
-    <div class="unit col1of10 vertical-big-inner"><a href="/blogs">Blogs</a></div>
-    <div class="unit col1of10 vertical-big-inner"><a href="/involvement">Involvement</a></div>
-    <div class="unit col1of10 vertical-big-inner"><a href="/success">Success Stories</a></div>
+    
+    <div class="unit col1of3 f-right double-inner">
+      <a href="/">About</a>
+      <a href="/blogs">Blogs</a>
+      <a href="/community">Community</a>
+      <a href="#">Donate</a>
+    </div>
   </div>
   <% if signed_in? %>
-    <%= render 'layouts/login' %>
+  <%= render 'layouts/login' %>
   <% end %>
 
