@@ -8,6 +8,9 @@
 </head>
 <body>
   <%= render 'layouts/header' %>
+  <% if signed_in? %>
+  <%= render 'layouts/login' %>
+  <% end %>
   <div class="main-container">
   <div class="row main-content">
   <%= yield %>
