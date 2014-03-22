@@ -1,11 +1,7 @@
 
-
 .main-container {
-  background-color: #fff;
-  width: 1090px;
-  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.4);
   margin: 0 auto;
-  padding-top: 40px;
+  padding-top: 56px;
 
 }
 
@@ -25,9 +21,14 @@
   }
 }
 
-.main-content {
-  width: 1060px;
-  height: 815px;
+.news-letter{
+    padding: 20px;
+}
+
+.main-image-container {
+  img {
+    width: 100%;
+  }
 }
 
 .blog-wrapper {

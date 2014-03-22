@@ -3,6 +3,7 @@ class AboutController < ApplicationController
 
   def index
      @about = About.first
+     @email = AudienceEmail.new
   end
 
   def edit

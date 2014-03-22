@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140321215709) do
+ActiveRecord::Schema.define(version: 20140322015210) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -37,6 +37,12 @@ ActiveRecord::Schema.define(version: 20140321215709) do
 
   add_index "admins", ["remember_token"], name: "index_admins_on_remember_token", using: :btree
 
+  create_table "audience_emails", force: true do |t|
+    t.string   "email"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
   create_table "blogs", force: true do |t|
     t.string   "title"
     t.text     "para1"
@@ -46,6 +52,10 @@ ActiveRecord::Schema.define(version: 20140321215709) do
     t.integer  "admin_id"
     t.datetime "created_at"
     t.datetime "updated_at"
+  end
+
+  create_table "emails", force: true do |t|
+    t.string "email"
   end
 
   create_table "locations", force: true do |t|

@@ -1,0 +1,5 @@
+<h2 class="double-inner">NewsLetter Signup</h2>
+<%= form_for @email, :html => {:class => 'lastUnit news-letter'} do |f| %>
+<%= f.text_field :email %>
+<%= f.submit 'Register' %>
+<% end %>

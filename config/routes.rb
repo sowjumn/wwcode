@@ -9,11 +9,13 @@ Wwcode::Application.routes.draw do
 
   resources :admins
   resources :blogs
+  resources :audience_emails
   resources :sessions, only: [:new,:create,:destroy]
 
   match '/admin_signup', to: 'admins#new', via: :get
   match '/admin_signin', to: 'sessions#new', via: :get
   match '/admin_signout', to: 'sessions#destroy', via: :delete
+  match '/community', to: 'community#index', via: :get
 
 
 
